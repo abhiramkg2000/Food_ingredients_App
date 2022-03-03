@@ -1,0 +1,12 @@
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+.menuimage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

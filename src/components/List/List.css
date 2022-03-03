@@ -1,0 +1,57 @@
+.searchbar1 {
+  display: flex;
+  justify-content: center;
+  background-color: darkcyan;
+  height: 50px;
+  margin-top: 6px;
+  padding: 8px 2px;
+}
+.search {
+  border-radius: 15px;
+  padding: 0 15px;
+}
+.search:focus {
+  outline: none;
+}
+
+.listitems {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 85%;
+  background-color: aquamarine;
+}
+.btn {
+  color: #ffffff;
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: #726f6f;
+}
+
+.navbar-collapse {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  height: 100%;
+}
+
+.navbar-collapse.collapsing {
+  left: -75%;
+  transition: height 0s ease;
+}
+
+.navbar-collapse.show {
+  left: 0;
+  transition: left 300ms ease-in-out;
+}
+
+.navbar-toggler.collapsed ~ .navbar-collapse {
+  transition: left 500ms ease-in-out;
+}
